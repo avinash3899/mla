@@ -1,0 +1,12 @@
+input:focus{
+    background-color: lightgoldenrodyellow;
+}
+.frh{
+    margin: 5px;
+    color: Red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+fieldset{
+    margin: 10% auto; 
+    width: 400px;
+}

@@ -1,0 +1,85 @@
+<html>
+<head>
+    <title>Home</title>
+    <style>
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        ul{
+            list-style: none;
+            padding:0px 0px 0px 10px;
+        }
+        ul li{
+            margin-bottom: 20px;
+        }
+        
+        #sidebar ul li a{
+            color: black;
+            font-size: 20px;
+            font-weight: bolder;
+            transition: 0.3s;
+        }
+
+        #sidebar ul li a:hover{
+            font-size: 25px;
+        }
+        #container{     
+            width: 1500px;
+            margin: 0 auto;
+        }
+   
+        #header{
+            text-align: center;
+            height:100px;
+            font-size: 80px;
+            background-color: #274D69;
+            margin-bottom: 10px;
+        }
+        #sidebar{
+            float: left;
+            background-color: #E7E9EB;
+            width: 190px;
+            height: 800px;
+        }
+        #frame{
+            float: right;
+            
+            width: 1300px;
+            height: 800px;
+        }
+        .footer{
+    height: 60px;
+    background: linear-gradient(#274D69,#274D69,white);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 30px;
+    margin-top: 10px
+}
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <a href="home.html" target="target">MPHASIS LEARNING ACADEMY</a>
+        </div>
+        <div id="sidebar">
+            <ul>
+            <li><a href="login.html"  target=target>LOG IN</a></li>
+            <li><a href="register.html" target=target>REGISTER</a></li>
+            <li><a href="admission.html" target="target">ADMISSION</a></li>
+            <li><a href="timetable.html" target="target">TIME-TABLE</a></li>
+            <li><a href="contactus.html" target="target">CONTACT-US</a></li>
+            </ul>
+        </div>
+        <div id="frame"><iframe src="home.html" name="target" frameborder="0" height="100%" width="100%"></iframe></div>
+        <div style="clear: both;"></div>
+        <footer class="footer">
+            <div>
+                <p>Mphasis Limited &copy; 2010-2021</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
